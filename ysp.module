@@ -1,8 +1,9 @@
 #!name=央视频直连分流
-#!desc=解决央视频4K/8K直播及高码率因走代理导致403的问题
-#!author=大亨 (TMXK)
-#!homepage=https://t.me/tmxktg
-#!date=2026-11-04
+#!desc=央视频直播、回看、台标、节目单及本地网关直连
+#!author=TMXK
+#!homepage=https://tmxk.pp.ua
+#!version=20261124
+#!date=2026-11-24
 
 [Rule]
 DOMAIN-SUFFIX,cctv.cn,DIRECT
@@ -32,6 +33,10 @@ DOMAIN-KEYWORD,livehw,DIRECT
 DOMAIN-KEYWORD,livebd,DIRECT
 DOMAIN-KEYWORD,livews,DIRECT
 DOMAIN-KEYWORD,kunlun,DIRECT
+DOMAIN,tmxk.pp.ua,DIRECT
+DOMAIN,garysclub.sharewithyou.dpdns.org,DIRECT
+DOMAIN,epg.zsdc.eu.org,DIRECT
+DOMAIN,epg.pw,DIRECT
 DOMAIN,localhost,DIRECT
 DOMAIN-SUFFIX,localhost,DIRECT
 DOMAIN-SUFFIX,local,DIRECT

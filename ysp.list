@@ -1,5 +1,6 @@
 # 央视 / 央视频直连规则集 (适用于 Surge / Loon / Shadowrocket Rule-Set)
-# 官方发布社区: https://t.me/tmxktg
+# 版本 20261124
+# TMXK 项目主页: https://github.com/tmxk2020/ysp-live
 
 DOMAIN-SUFFIX,cctv.cn
 DOMAIN-SUFFIX,cctv.com
@@ -28,6 +29,10 @@ DOMAIN-KEYWORD,livehw
 DOMAIN-KEYWORD,livebd
 DOMAIN-KEYWORD,livews
 DOMAIN-KEYWORD,kunlun
+# 该域名仅用于原始频道台标图片 CDN
+DOMAIN,garysclub.sharewithyou.dpdns.org
+DOMAIN,epg.zsdc.eu.org
+DOMAIN,epg.pw
 DOMAIN,localhost
 DOMAIN-SUFFIX,localhost
 DOMAIN-SUFFIX,local
